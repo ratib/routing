@@ -103,7 +103,7 @@ public class Path {
 
 	public String getRoutesAsString() {
 		StringBuilder str = new StringBuilder(getSource().getName());
-		for (int i = routes.size() - 2; i >= 0; i--) {
+		for (int i = routes.size() - 1; i >= 0; i--) {
 			Relationship r = routes.get(i);
 			str.append(" -> " + r.getTarget().getName());
 		}

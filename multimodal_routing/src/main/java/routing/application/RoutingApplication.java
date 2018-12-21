@@ -30,7 +30,7 @@ public class RoutingApplication {
 		Graph graph = new Graph(FileUtils.getNodes(), FileUtils.getRelationships());
 		//initialize the bfs algorithm by passing the graph, source node and capacity of the load
 		Routing_BFS bfs = new Routing_BFS(graph, new Node("singapore port"), 20);
-		List<Path> paths = bfs.getPathTo(new Node("shanghai port"), PathProperties.DURATION, 50);
+		List<Path> paths = bfs.getPathTo(new Node("shanghai port"), PathProperties.COST, 50);
 		FileUtils.storeResult(paths);
 
 	}

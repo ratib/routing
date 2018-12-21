@@ -1,5 +1,5 @@
 Route Number,source,destination,container_size,shipment_mode,speed,fixed_freight_cost,port_handling_cost,fuel_cost,documentation_cost,equipment_cost,extra_cost,warehouse_cost,custom_clearancetime_hours,port_handling_hours,extra_time_hours,co_emission,distance
-1,Singapore Port,Shanghai Port,67,Ship,100,300,300,400,180,20,0,0,24,48,0,0.0256,12000
+1,Singapore Port,Shanghai Port,67,Ship,100,400,500,500,180,20,0,0,24,48,0,0.0256,12000
 2,Shanghai Port,Singapore Port,67,Ship,100,150,300,400,180,20,0,0,24,48,0,0.0256,12000
 3,Singapore Port,Malaysia Port,67,Ship,100,50,280,200,150,20,0,0,24,48,0,0.0256,2400
 4,Malaysia Port,Singapore Port,67,Ship,100,50,280,200,150,20,0,0,24,48,0,0.0256,2400

@@ -1,0 +1,51 @@
+paths,shipment_modes,distance,cost,co_emission,duration,num_of_changes
+singapore port -> singapore airport -> shanghai airport -> shanghai warehouse -> shanghai port,"TRUCK AIR ",3100.0,2740.0,1.3599999999999999,63.0,4
+singapore port -> singapore airport -> wuxi airport -> wuxi warehouse -> shanghai warehouse -> shanghai port,"TRUCK AIR ",4340.0,4273.0,1.4591999999999998,73.0,5
+singapore port -> malaysia warehouse -> malaysia airport -> shanghai airport -> shanghai warehouse -> shanghai port,"TRUCK AIR ",3270.0,2140.0,1.4591999999999998,73.5,5
+singapore port -> malaysia warehouse -> malaysia airport -> wuxi airport -> wuxi warehouse -> shanghai warehouse -> shanghai port,"TRUCK AIR ",4510.0,4203.0,1.5583999999999998,83.5,6
+singapore port -> singapore airport -> malaysia airport -> shanghai airport -> shanghai warehouse -> shanghai port,"TRUCK AIR ",3850.0,3285.0,2.3232000000000004,96.5,5
+singapore port -> singapore airport -> malaysia airport -> wuxi airport -> wuxi warehouse -> shanghai warehouse -> shanghai port,"TRUCK AIR ",5090.0,5348.0,2.4224,106.5,6
+singapore port -> malaysia warehouse -> malaysia airport -> singapore airport -> shanghai airport -> shanghai warehouse -> shanghai port,"TRUCK AIR ",4520.0,4165.0,2.4224000000000006,108.0,6
+singapore port -> malaysia warehouse -> malaysia airport -> singapore airport -> wuxi airport -> wuxi warehouse -> shanghai warehouse -> shanghai port,"TRUCK AIR ",5760.0,5698.0,2.5216000000000003,118.0,7
+singapore port -> singapore airport -> wuxi airport -> malaysia airport -> shanghai airport -> shanghai warehouse -> shanghai port,"TRUCK AIR ",9600.0,9240.0,3.2864000000000004,140.0,6
+singapore port -> singapore airport -> wuxi airport -> wuxi warehouse -> wuxi port -> shanghai port,"TRUCK SHIP AIR ",4600.0,4563.0,1.3855999999999997,142.0,5
+singapore port -> singapore airport -> shanghai airport -> malaysia airport -> wuxi airport -> wuxi warehouse -> shanghai warehouse -> shanghai port,"TRUCK AIR ",8840.0,8383.0,3.3856,146.0,7
+singapore port -> singapore airport -> shanghai airport -> shanghai warehouse -> wuxi warehouse -> wuxi port -> shanghai port,"TRUCK SHIP AIR ",3840.0,3303.0,1.4848,148.0,6
+singapore port -> malaysia warehouse -> malaysia airport -> wuxi airport -> singapore airport -> shanghai airport -> shanghai warehouse -> shanghai port,"TRUCK AIR ",10270.0,10120.0,3.3856000000000006,151.5,7
+singapore port -> malaysia warehouse -> malaysia airport -> wuxi airport -> wuxi warehouse -> wuxi port -> shanghai port,"TRUCK SHIP AIR ",4770.0,4493.0,1.4847999999999997,152.5,6
+singapore port -> malaysia warehouse -> malaysia airport -> shanghai airport -> singapore airport -> wuxi airport -> wuxi warehouse -> shanghai warehouse -> shanghai port,"TRUCK AIR ",9510.0,7833.0,3.4848000000000003,157.5,8
+singapore port -> malaysia warehouse -> malaysia airport -> shanghai airport -> shanghai warehouse -> wuxi warehouse -> wuxi port -> shanghai port,"TRUCK SHIP AIR ",4010.0,2703.0,1.5839999999999999,158.5,7
+singapore port -> malaysia warehouse -> malaysia airport -> shanghai airport -> shanghai warehouse -> shanghai port,"TRUCK SHIP AIR ",5370.0,2650.0,1.3856,160.5,5
+singapore port -> singapore airport -> wuxi airport -> wuxi warehouse -> wuxi railway station -> shanghai railway station -> shanghai warehouse -> shanghai port,"ANY TRUCK AIR ",11660.0,4673.0,1.6283999999999998,163.0,7
+singapore port -> malaysia warehouse -> singapore warehouse -> singapore airport -> shanghai airport -> shanghai warehouse -> shanghai port,"TRUCK SHIP AIR ",5920.0,3580.0,1.4848,170.0,6
+singapore port -> malaysia warehouse -> malaysia airport -> wuxi airport -> wuxi warehouse -> shanghai warehouse -> shanghai port,"TRUCK SHIP AIR ",6610.0,4713.0,1.4848,170.5,6
+singapore port -> malaysia warehouse -> malaysia airport -> wuxi airport -> wuxi warehouse -> wuxi railway station -> shanghai railway station -> shanghai warehouse -> shanghai port,"ANY TRUCK AIR ",11830.0,4603.0,1.7275999999999998,173.5,8
+singapore port -> singapore airport -> malaysia airport -> wuxi airport -> wuxi warehouse -> wuxi port -> shanghai port,"TRUCK SHIP AIR ",5350.0,5638.0,2.3488,175.5,6
+singapore port -> malaysia warehouse -> singapore warehouse -> singapore airport -> wuxi airport -> wuxi warehouse -> shanghai warehouse -> shanghai port,"TRUCK SHIP AIR ",7160.0,5113.0,1.5839999999999999,180.0,7
+singapore port -> singapore airport -> malaysia airport -> shanghai airport -> shanghai warehouse -> wuxi warehouse -> wuxi port -> shanghai port,"TRUCK SHIP AIR ",4590.0,3848.0,2.4480000000000004,181.5,7
+singapore port -> malaysia warehouse -> malaysia airport -> singapore airport -> wuxi airport -> wuxi warehouse -> wuxi port -> shanghai port,"TRUCK SHIP AIR ",6020.0,5988.0,2.4480000000000004,187.0,7
+singapore port -> malaysia warehouse -> malaysia port -> shanghai port,"TRUCK SHIP ",10260.0,1240.0,0.3232,191.0,3
+singapore port,"SHIP ",12000.0,1200.0,0.0256,192.0,0
+singapore port -> malaysia warehouse -> malaysia airport -> singapore airport -> shanghai airport -> shanghai warehouse -> wuxi warehouse -> wuxi port -> shanghai port,"TRUCK SHIP AIR ",5260.0,4728.0,2.5472000000000006,193.0,8
+singapore port -> malaysia warehouse -> malaysia airport -> singapore airport -> shanghai airport -> shanghai warehouse -> shanghai port,"TRUCK SHIP AIR ",6620.0,4675.0,2.3488,195.0,6
+singapore port -> singapore airport -> malaysia airport -> wuxi airport -> wuxi warehouse -> wuxi railway station -> shanghai railway station -> shanghai warehouse -> shanghai port,"ANY TRUCK AIR ",12410.0,5748.0,2.5916,196.5,8
+singapore port -> malaysia warehouse -> singapore warehouse -> singapore airport -> malaysia airport -> shanghai airport -> shanghai warehouse -> shanghai port,"TRUCK SHIP AIR ",6670.0,4125.0,2.4480000000000004,203.5,7
+singapore port -> malaysia warehouse -> malaysia airport -> singapore airport -> wuxi airport -> wuxi warehouse -> shanghai warehouse -> shanghai port,"TRUCK SHIP AIR ",7860.0,6208.0,2.448,205.0,7
+singapore port -> malaysia warehouse -> malaysia airport -> singapore airport -> wuxi airport -> wuxi warehouse -> wuxi railway station -> shanghai railway station -> shanghai warehouse -> shanghai port,"ANY TRUCK AIR ",13080.0,6098.0,2.6908000000000003,208.0,9
+singapore port -> malaysia warehouse -> singapore warehouse -> singapore airport -> malaysia airport -> wuxi airport -> wuxi warehouse -> shanghai warehouse -> shanghai port,"TRUCK SHIP AIR ",7910.0,6188.0,2.5472,213.5,8
+singapore port -> singapore airport -> shanghai airport -> malaysia airport -> wuxi airport -> wuxi warehouse -> wuxi port -> shanghai port,"TRUCK SHIP AIR ",9100.0,8673.0,3.3120000000000003,215.0,7
+singapore port -> singapore airport -> wuxi airport -> malaysia airport -> shanghai airport -> shanghai warehouse -> wuxi warehouse -> wuxi port -> shanghai port,"TRUCK SHIP AIR ",10340.0,9803.0,3.4112000000000005,225.0,8
+singapore port -> malaysia warehouse -> malaysia airport -> shanghai airport -> singapore airport -> wuxi airport -> wuxi warehouse -> wuxi port -> shanghai port,"TRUCK SHIP AIR ",9770.0,8123.0,3.4112000000000005,226.5,8
+singapore port -> singapore airport -> malaysia airport -> malaysia warehouse -> malaysia port -> shanghai port,"TRUCK SHIP AIR ",11200.0,2555.0,1.3855999999999997,228.0,5
+singapore port -> singapore airport -> shanghai airport -> malaysia airport -> wuxi airport -> wuxi warehouse -> wuxi railway station -> shanghai railway station -> shanghai warehouse -> shanghai port,"ANY TRUCK AIR ",16160.0,8783.0,3.5548,236.0,9
+singapore port -> malaysia warehouse -> malaysia airport -> wuxi airport -> singapore airport -> shanghai airport -> shanghai warehouse -> wuxi warehouse -> wuxi port -> shanghai port,"TRUCK SHIP AIR ",11010.0,10683.0,3.5104000000000006,236.5,9
+singapore port -> singapore airport -> shanghai airport -> shanghai warehouse -> shanghai railway station -> wuxi railway station -> wuxi warehouse -> wuxi port -> shanghai port,"ANY TRUCK SHIP AIR ",11160.0,3723.0,1.654,238.0,8
+singapore port -> malaysia warehouse -> malaysia airport -> wuxi airport -> singapore airport -> shanghai airport -> shanghai warehouse -> shanghai port,"TRUCK SHIP AIR ",12370.0,10630.0,3.3120000000000003,238.5,7
+singapore port -> malaysia warehouse -> malaysia airport -> wuxi airport -> wuxi warehouse -> wuxi port -> shanghai port,"TRUCK SHIP AIR ",6870.0,5003.0,1.4111999999999998,239.5,6
+singapore port -> singapore railway station -> malaysia railway station -> malaysia warehouse -> malaysia airport -> shanghai airport -> shanghai warehouse -> shanghai port,"ANY TRUCK AIR ",22410.0,3150.0,1.6283999999999998,244.5,7
+singapore port -> malaysia warehouse -> malaysia airport -> shanghai airport -> singapore airport -> wuxi airport -> wuxi warehouse -> shanghai warehouse -> shanghai port,"TRUCK SHIP AIR ",11610.0,8343.0,3.4112,244.5,8
+singapore port -> malaysia warehouse -> malaysia airport -> shanghai airport -> shanghai warehouse -> wuxi warehouse -> wuxi port -> shanghai port,"TRUCK SHIP AIR ",6110.0,3213.0,1.5104,245.5,7
+singapore port -> malaysia warehouse -> singapore warehouse -> singapore airport -> wuxi airport -> malaysia airport -> shanghai airport -> shanghai warehouse -> shanghai port,"TRUCK SHIP AIR ",12420.0,10080.0,3.4112000000000005,247.0,8
+singapore port -> malaysia warehouse -> malaysia airport -> shanghai airport -> singapore airport -> wuxi airport -> wuxi warehouse -> wuxi railway station -> shanghai railway station -> shanghai warehouse -> shanghai port,"ANY TRUCK AIR ",16830.0,8233.0,3.6540000000000004,247.5,10
+singapore port -> malaysia warehouse -> malaysia airport -> shanghai airport -> shanghai warehouse -> shanghai railway station -> wuxi railway station -> wuxi warehouse -> wuxi port -> shanghai port,"ANY TRUCK SHIP AIR ",11330.0,3123.0,1.7531999999999999,248.5,9
+singapore port -> malaysia warehouse -> singapore warehouse -> singapore airport -> wuxi airport -> wuxi warehouse -> wuxi port -> shanghai port,"TRUCK SHIP AIR ",7420.0,5403.0,1.5103999999999997,249.0,7

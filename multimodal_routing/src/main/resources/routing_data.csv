@@ -1,0 +1,51 @@
+Route Number,source,destination,container_size,shipment_mode,speed,fixed_freight_cost,port_handling_cost,fuel_cost,documentation_cost,equipment_cost,extra_cost,warehouse_cost,custom_clearancetime_hours,port_handling_hours,extra_time_hours,co_emission,distance
+1,Singapore Port,Shanghai Port,67,Ship,100,300,300,400,180,20,0,0,24,48,0,0.0256,12000
+2,Shanghai Port,Singapore Port,67,Ship,100,150,300,400,180,20,0,0,24,48,0,0.0256,12000
+3,Singapore Port,Malaysia Port,67,Ship,100,50,280,200,150,20,0,0,24,48,0,0.0256,2400
+4,Malaysia Port,Singapore Port,67,Ship,100,50,280,200,150,20,0,0,24,48,0,0.0256,2400
+5,Shanghai Port,Malaysia Port,67,Ship,100,300,180,400,130,20,0,0,24,48,0,0.0256,9600
+6,Malaysia Port,Shanghai Port,67,Ship,100,150,180,400,130,20,0,0,24,48,0,0.0256,9600
+7,Shanghai Port,Wuxi Port,67,Ship,100,100,150,80,100,20,0,0,24,48,0,0.0256,500
+8,Wuxi Port,Shanghai Port,67,Ship,100,100,150,80,100,20,0,0,24,48,0,0.0256,500
+9,Singapore Airport,Shanghai Airport,20,Air,500,900,600,600,180,25,0,0,24,8,0,0.9632,2500
+10,Shanghai Airport,Singapore Airport,20,Air,500,450,600,600,180,25,0,0,24,8,0,0.9632,2500
+11,Singapore Airport,Malaysia Airport,20,Air,500,150,560,400,150,25,0,0,24,8,0,0.9632,1000
+12,Malaysia Airport,Singapore Airport,20,Air,500,150,560,400,150,25,0,0,24,8,0,0.9632,1000
+13,Shanghai Airport,Malaysia Airport,20,Air,500,900,360,600,130,25,0,0,24,8,0,0.9632,2250
+14,Malaysia Airport,Shanghai Airport,20,Air,500,450,360,600,130,25,0,0,24,8,0,0.9632,2250
+15,Singapore Airport,Wuxi Airport,20,Air,500,2000,700,800,200,25,0,0,24,8,0,0.9632,3500
+16,Wuxi Airport,Singapore Airport,20,Air,500,2000,700,800,200,25,0,0,24,8,0,0.9632,3500
+17,Malaysia Airport,Wuxi Airport,20,Air,500,1800,700,800,190,25,0,0,24,8,0,0.9632,3250
+18,Wuxi Airport,Malaysia Airport,20,Air,500,1800,700,800,190,25,0,0,24,8,0,0.9632,3250
+19,Shanghai Railway Station,Wuxi Railway Station,100,Rail,200,80,100,100,50,15,0,0,24,24,0,0.07,7200
+20,Wuxi Railway Station,Shanghai Railway Station,100,Rail,200,80,100,100,50,15,0,0,24,24,0,0.07,7200
+21,Singapore Railway Station,Malaysia Railway Station,100,Rail,200,100,500,200,150,30,0,0,24,48,0,0.07,19200
+22,Malaysia Railway Station,Singapore Railway Station,100,Rail,200,100,500,200,150,30,0,0,24,48,0,0.07,19200
+23,Singapore Warehouse,Singapore Port,50,Truck,60,100,0,0,0,0,0,20,4,0,0,0.0992,120
+24,Singapore Port,Singapore Warehouse,50,Truck,60,100,0,0,0,0,0,0,4,0,0,0.0992,120
+25,Singapore Warehouse,Singapore Airport,50,Truck,60,100,0,0,0,0,0,20,4,0,0,0.0992,120
+26,Singapore Airport,Singapore Warehouse,50,Truck,60,100,0,0,0,0,0,0,4,0,0,0.0992,120
+27,Singapore Warehouse,Singapore Railway Station,50,Truck,60,100,0,0,0,0,0,20,4,0,0,0.0992,120
+28,Singapore Railway Station,Singapore Warehouse,50,Truck,60,100,0,0,0,0,0,0,4,0,0,0.0992,120
+29,Malaysia Warehouse,Malaysia Port,50,Truck,60,80,0,0,0,0,0,10,4,0,0,0.0992,180
+30,Malaysia Port,Malaysia Warehouse,50,Truck,60,80,0,0,0,0,0,0,4,0,0,0.0992,180
+31,Malaysia Warehouse,Malaysia Airport,50,Truck,60,80,0,0,0,0,0,10,4,0,0,0.0992,180
+32,Malaysia Airport,Malaysia Warehouse,50,Truck,60,80,0,0,0,0,0,0,4,0,0,0.0992,180
+33,Malaysia Warehouse,Malaysia Railway Station,50,Truck,60,80,0,0,0,0,0,10,4,0,0,0.0992,180
+34,Malaysia Railway Station,Malaysia Warehouse,50,Truck,60,80,0,0,0,0,0,0,4,0,0,0.0992,180
+35,Wuxi Warehouse,Wuxi Port,50,Truck,60,80,0,0,0,0,0,8,4,0,0,0.0992,180
+36,Wuxi Port,Wuxi Warehouse,50,Truck,60,80,0,0,0,0,0,0,4,0,0,0.0992,180
+37,Wuxi Warehouse,Wuxi Airport,50,Truck,60,80,0,0,0,0,0,8,4,0,0,0.0992,180
+38,Wuxi Airport,Wuxi Warehouse,50,Truck,60,80,0,0,0,0,0,0,4,0,0,0.0992,180
+39,Wuxi Warehouse,Wuxi Railway Station,50,Truck,60,80,0,0,0,0,0,8,4,0,0,0.0992,180
+40,Wuxi Railway Station,Wuxi Warehouse,50,Truck,60,100,0,0,0,0,0,0,4,0,0,0.0992,180
+41,Shanghai Warehouse,Shanghai Port,50,Truck,60,100,0,0,0,0,0,15,4,0,0,0.0992,180
+42,Shanghai Port,Shanghai Warehouse,50,Truck,60,100,0,0,0,0,0,0,4,0,0,0.0992,180
+43,Shanghai Warehouse,Shanghai Airport,50,Truck,60,100,0,0,0,0,0,15,4,0,0,0.0992,180
+44,Shanghai Airport,Shanghai Warehouse,50,Truck,60,100,0,0,0,0,0,0,4,0,0,0.0992,180
+45,Shanghai Warehouse,Shanghai Railway Station,50,Truck,60,100,0,0,0,0,0,15,4,0,0,0.0992,180
+46,Shanghai Railway Station,Shanghai Warehouse,50,Truck,60,100,0,0,0,0,0,0,4,0,0,0.0992,180
+47,Singapore Warehouse,Malaysia Warehouse,50,Truck,60,150,0,0,0,0,0,20,4,0,0,0.0992,360
+48,Malaysia Warehouse,Singapore Warehouse,50,Truck,60,150,0,0,0,0,0,10,4,0,0,0.0992,360
+49,Shanghai Warehouse,Wuxi Warehouse,50,Truck,60,125,0,0,0,0,0,15,4,0,0,0.0992,240
+50,Wuxi Warehouse,Shanghai Warehouse,50,Truck,60,125,0,0,0,0,0,8,4,0,0,0.0992,240
